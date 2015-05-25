@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B1EE6461-2D3A-44C3-B218-34DB104BC822}</ProjectGuid>
+    <ProjectGuid>{0CE47532-AE5C-4851-BECA-12DC5A2B9781}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_1.JavaScriptLiterals</RootNamespace>
-    <AssemblyName>1.JavaScriptLiterals</AssemblyName>
+    <RootNamespace>_2.QuotedText</RootNamespace>
+    <AssemblyName>2.QuotedText</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -28,7 +28,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -58,10 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\js-console.css.map" />
     <Content Include="css\js-console.less" />
-    <Content Include="css\js-console.css.map">
-      <DependentUpon>js-console.css</DependentUpon>
-    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,27 +67,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\js-console.css">
-      <DependentUpon>js-console.less</DependentUpon>
-    </Content>
-    <Content Include="css\js-console.min.css">
-      <DependentUpon>js-console.css</DependentUpon>
-    </Content>
-    <Content Include="index.html" />
-    <Content Include="QuotedText.html" />
-    <Content Include="scripts\js-console.js" />
-    <Content Include="scripts\main1.js" />
-    <Content Include="scripts\main2.js" />
-    <Content Include="scripts\main4.js" />
-    <Content Include="scripts\main3.js" />
-    <Content Include="TypeOfNull.html" />
-    <Content Include="TypeOfVariables.html" />
+    <Content Include="css\js-console.css" />
+    <Content Include="css\js-console.min.css" />
+    <Content Include="js\js-console.js" />
+    <Content Include="js\main2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -104,9 +89,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1923</DevelopmentServerPort>
+          <DevelopmentServerPort>50215</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1923/</IISUrl>
+          <IISUrl>http://localhost:50215/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

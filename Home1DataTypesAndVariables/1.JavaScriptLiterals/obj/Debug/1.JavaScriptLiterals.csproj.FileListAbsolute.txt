@@ -4,3 +4,9 @@ F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiter
 F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\obj\Debug\1.JavaScriptLiterals.csprojResolveAssemblyReference.cache
 F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\obj\Debug\1.JavaScriptLiterals.dll
 F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\obj\Debug\1.JavaScriptLiterals.pdb
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\bin\1.JavaScriptLiterals.dll.config
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\bin\1.JavaScriptLiterals.dll
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\bin\1.JavaScriptLiterals.pdb
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\obj\Debug\1.JavaScriptLiterals.csprojResolveAssemblyReference.cache
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\obj\Debug\1.JavaScriptLiterals.dll
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\1.JavaScriptLiterals\obj\Debug\1.JavaScriptLiterals.pdb

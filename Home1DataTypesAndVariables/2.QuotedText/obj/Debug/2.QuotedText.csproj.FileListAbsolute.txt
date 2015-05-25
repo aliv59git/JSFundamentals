@@ -1,0 +1,6 @@
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\2.QuotedText\bin\2.QuotedText.dll.config
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\2.QuotedText\bin\2.QuotedText.dll
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\2.QuotedText\bin\2.QuotedText.pdb
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\2.QuotedText\obj\Debug\2.QuotedText.csprojResolveAssemblyReference.cache
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\2.QuotedText\obj\Debug\2.QuotedText.dll
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home1DataTypesAndVariables\2.QuotedText\obj\Debug\2.QuotedText.pdb
