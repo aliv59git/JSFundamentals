@@ -1,0 +1,6 @@
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home2OperatorsAndExpressions\1.OddOrEven\bin\1.OddOrEven.dll.config
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home2OperatorsAndExpressions\1.OddOrEven\bin\1.OddOrEven.dll
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home2OperatorsAndExpressions\1.OddOrEven\bin\1.OddOrEven.pdb
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home2OperatorsAndExpressions\1.OddOrEven\obj\Debug\1.OddOrEven.csprojResolveAssemblyReference.cache
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home2OperatorsAndExpressions\1.OddOrEven\obj\Debug\1.OddOrEven.dll
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home2OperatorsAndExpressions\1.OddOrEven\obj\Debug\1.OddOrEven.pdb
