@@ -57,6 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="3.RectangleArea.html" />
+    <Content Include="4.ThirdDigit.html" />
+    <Content Include="5.ThirdBit.html" />
+    <Content Include="scripts\3.RectangleArea.js" />
+    <Content Include="scripts\4.ThirdDigit.js" />
+    <Content Include="scripts\5.ThirdBit.js" />
     <Content Include="styles\js-console.css.map" />
     <Content Include="styles\js-console.less" />
     <None Include="Web.Debug.config">
