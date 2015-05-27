@@ -60,9 +60,17 @@
     <Content Include="3.RectangleArea.html" />
     <Content Include="4.ThirdDigit.html" />
     <Content Include="5.ThirdBit.html" />
+    <Content Include="6.PointInCircle.html" />
+    <Content Include="7.IsPrime.html" />
+    <Content Include="8.TrapezoidArea.html" />
+    <Content Include="9.PointInCircleAndOutsideRectangle.html" />
     <Content Include="scripts\3.RectangleArea.js" />
     <Content Include="scripts\4.ThirdDigit.js" />
     <Content Include="scripts\5.ThirdBit.js" />
+    <Content Include="scripts\6.PointInCircle.js" />
+    <Content Include="scripts\7.IsPrime.js" />
+    <Content Include="scripts\8.TrapezoidArea.js" />
+    <Content Include="scripts\9.PointInCircleAndOutsideRectangle.js" />
     <Content Include="styles\js-console.css.map" />
     <Content Include="styles\js-console.less" />
     <None Include="Web.Debug.config">
