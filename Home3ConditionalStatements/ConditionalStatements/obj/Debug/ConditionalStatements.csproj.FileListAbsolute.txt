@@ -4,3 +4,9 @@ D:\VS\JS1_N\JS1_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatemen
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.csprojResolveAssemblyReference.cache
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.dll
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\bin\ConditionalStatements.dll.config
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\bin\ConditionalStatements.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\bin\ConditionalStatements.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.csprojResolveAssemblyReference.cache
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home3ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.pdb
