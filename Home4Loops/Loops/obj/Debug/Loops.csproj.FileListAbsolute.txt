@@ -4,3 +4,9 @@ D:\VS\JS1_N\JS1_My\JSFundamentals\Home4Loops\Loops\bin\Loops.pdb
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home4Loops\Loops\obj\Debug\Loops.csprojResolveAssemblyReference.cache
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home4Loops\Loops\obj\Debug\Loops.dll
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home4Loops\Loops\obj\Debug\Loops.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home4Loops\Loops\bin\Loops.dll.config
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home4Loops\Loops\bin\Loops.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home4Loops\Loops\bin\Loops.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home4Loops\Loops\obj\Debug\Loops.csprojResolveAssemblyReference.cache
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home4Loops\Loops\obj\Debug\Loops.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home4Loops\Loops\obj\Debug\Loops.pdb
