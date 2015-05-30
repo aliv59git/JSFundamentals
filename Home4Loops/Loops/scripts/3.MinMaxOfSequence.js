@@ -18,5 +18,6 @@ function minMaxOfSequence() {
     });
 
     jsConsole.writeLine("Max number is: " + maxNumb + ";  Min number is: " + minNumb);
+    jsConsole.writeLine("With sorted array:")
     jsConsole.writeLine("Max number is: " + arr[len-1] + ";  Min number is: " + arr[0]);
 }
