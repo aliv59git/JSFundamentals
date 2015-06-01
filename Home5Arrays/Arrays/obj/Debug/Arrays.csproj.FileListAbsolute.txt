@@ -1,0 +1,6 @@
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\bin\Arrays.dll.config
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\bin\Arrays.dll
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\bin\Arrays.pdb
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.dll
+D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.pdb
