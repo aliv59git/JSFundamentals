@@ -8,18 +8,18 @@ function maximalIncreasingSequence() {
     initialEl = arr[0];
     len = arr.length;
 
-    for (i = 0; i < len; i+=1) {
-        if (arr[i] > arr[i-1]) {
+    for (i = 1; i < len; i += 1) {
+        if (+arr[i] > +arr[i - 1]) {
             count += 1;
-        } 
-        if (bestCount < count) {
-            bestCount = count;
-            bestInitial = arr.indexOf(initialEl);
+        } else {
+            if (bestCount < count) {
+                bestCount = count;
+                bestInitial = arr.indexOf(initialEl);
+            }
+            initialEl = arr[i];
+            count = 1;
         }
-        initialEl = arr[i];
-        count = 1;
     }
-
     result = arr.slice(bestInitial, bestInitial + bestCount);
 
     jsConsole.writeLine(result.join(', '));

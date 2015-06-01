@@ -4,3 +4,9 @@ D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\bin\Arrays.pdb
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.dll
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home5Arrays\Arrays\bin\Arrays.dll.config
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home5Arrays\Arrays\bin\Arrays.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home5Arrays\Arrays\bin\Arrays.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home5Arrays\Arrays\obj\Debug\Arrays.pdb
