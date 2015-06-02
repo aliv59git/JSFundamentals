@@ -62,11 +62,13 @@
     <Content Include="4.MaximalIncreasingSequence.html" />
     <Content Include="5.SelectionSort.html" />
     <Content Include="6.MostFrequentNumber.html" />
+    <Content Include="7.BinarySearch.html" />
     <Content Include="scripts\2.LexicographicallyComparison.js" />
     <Content Include="scripts\3.MaxiamalSequence.js" />
     <Content Include="scripts\4.MaximalIncreasingSequence.js" />
     <Content Include="scripts\5.SelectionSort.js" />
     <Content Include="scripts\6.MostFrequentNumber.js" />
+    <Content Include="scripts\7.BinarySearch.js" />
     <Content Include="styles\js-console.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
