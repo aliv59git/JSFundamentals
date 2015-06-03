@@ -88,6 +88,31 @@ string = string.replace(/  +/g, ' ');
 9. И може би най-важното за мен: да се проверява почти всеки ред дали ти изкарва това, което ти искаш, чрез проверяване с различни примери. Step by step :)
 10. <good></luck>
 п.п. ако някой иска и се сети нещо друго да сподели :)
+
+ Да добавя нещо с което може да се поблъскате много - array.sort() не сортира числа като числа, а като стрингове.
+За това :
+  array.sort(function(a, b) {return a - b});
+
+Ще добавя и следните:
+- да си направим една функция за проверка на числа : 
+function isNumber(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
+- пълнене на двумерен масив(матрица) :
+var matrix = [], rows = 5, cols = 5 ,row , col , count ;
+for(row = 0; row < rows; row += 1) {
+     matrix.push( [] );
+      for ( col = 0; col < cols; col += 1){
+           matrix[row][col] = count;
+           count += 1;
+     }
+}
+- ако искаме да копираме масив и новия да не е с референция към стария ,а да е изцяло нов:
+var numbers = [5, 6, 7, 8, 9];
+var copy = numbers.slice();
+numbers[1] = 100;
+console.log(numbers); // [5,100,7,8,9];
+console.log(copy); // [5,6,7,8,9];
 		
 
 

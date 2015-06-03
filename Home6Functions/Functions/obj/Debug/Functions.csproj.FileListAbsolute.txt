@@ -4,3 +4,9 @@ D:\VS\JS1_N\JS1_My\JSFundamentals\Home6Functions\Functions\bin\Functions.pdb
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home6Functions\Functions\obj\Debug\Functions.csprojResolveAssemblyReference.cache
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home6Functions\Functions\obj\Debug\Functions.dll
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home6Functions\Functions\obj\Debug\Functions.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home6Functions\Functions\bin\Functions.dll.config
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home6Functions\Functions\bin\Functions.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home6Functions\Functions\bin\Functions.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home6Functions\Functions\obj\Debug\Functions.csprojResolveAssemblyReference.cache
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home6Functions\Functions\obj\Debug\Functions.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home6Functions\Functions\obj\Debug\Functions.pdb
