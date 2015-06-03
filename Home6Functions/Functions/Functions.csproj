@@ -71,7 +71,7 @@
     <Content Include="3.OccurrencesOfWord.html" />
     <Content Include="scripts\1.EnglishDigit.js" />
     <Content Include="scripts\2.ReverseNumber.js" />
-    <Content Include="scripts\3.AccurrencesOfWord.js" />
+    <Content Include="scripts\3.OccurrencesOfWord.js" />
     <Content Include="scripts\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />
