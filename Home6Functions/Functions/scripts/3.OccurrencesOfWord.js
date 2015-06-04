@@ -21,7 +21,7 @@ function occurrencesOfWord(text, isCaseSensitive) {
         words = text.split(/\W+/);
         len = words.length;
         for (i = 0; i < len; i += 1) {
-            if (words[i] == '') {
+            if (words[i] === '') {
                 words.splice(i, 1);
             }
         }
