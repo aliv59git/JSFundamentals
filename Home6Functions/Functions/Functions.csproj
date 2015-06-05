@@ -58,7 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="4.NumberOfElements.html" />
+    <Content Include="5.AppearanceCount.html" />
+    <Content Include="6.LargerThanNeighbours.html" />
+    <Content Include="7.FirstLargerThanNeighbours.html" />
     <Content Include="scripts\4.NumberOfDivElements.js" />
+    <Content Include="scripts\5.AppearanceCount.js" />
+    <Content Include="scripts\6.LargerThanNeighbours.js" />
+    <Content Include="scripts\7.FirstLargerThanNeighbours.js" />
     <Content Include="styles\js-console.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
