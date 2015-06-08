@@ -4,3 +4,9 @@ D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObject
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.csprojResolveAssemblyReference.cache
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.dll
 D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.dll.config
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.pdb
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.csprojResolveAssemblyReference.cache
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.dll
+F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.pdb
