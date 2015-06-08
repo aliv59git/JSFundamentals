@@ -4,27 +4,66 @@ o	Lines are represented by two points, marking their beginning and ending L(P1(X
 •	Calculate the distance between two points.
 •	Check if three segment lines can form a triangle.*/
 
-(function () {
 
-    function Line(P1, P2) {
-        var P1 = {
-            x: x1||+'',
-            y: y1||+''
-        }, P2 = {
-            x: x2||+'',
-            y: y2||+''
-        }, distance, line = {
-            beginning: P1,
-            ending: P2
-        };
-        if (P1.x !== P2.x || P1.y !== P2.y) {
-            distance = Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+function Point(x, y) {
+    return {
+        'x': x,
+        'y': y
+    };
+}
+
+function Line(P1, P2) {
+    return {
+        'begin': P1,
+        'end': P2,
+        'distance': calculateDistance(P1, P1)
+    };
+}
+
+function calculateDistance(point1, point2){
+    return Math.sqrt((point1.x - point2.x) * (point1.x - point2.x) + (point1.y - point2.y) * (point1.y - point2.y));
+}
+
+function distanceAB() {
+    var a1 = +(document.getElementById('input-text').value).split(',')[0],
+        a2 = +(document.getElementById('input-text').value).split(',')[1],
+        b1 = +(document.getElementById('input-text1').value).split(',')[0],
+        b2 = +(document.getElementById('input-text1').value).split(',')[1],
+        c1 = +(document.getElementById('input-text2').value).split(',')[0],
+        c2 = +(document.getElementById('input-text2').value).split(',')[1];
+
+    var A = new Point(a1, a2),
+        B = new Point(b1, b2),
+        C = new Point(c1, c2),
+        lineAB = new Line(A, B), 
+        distanceAB = calculateDistance(A, B);
+    jsConsole.writeLine('Distance A-B is: ' + distanceAB);
+    jsConsole.writeLine();
+    formTriangle();
+
+    function formTriangle() {
+        jsConsole.writeLine('Distance A-B is: ' + calculateDistance(A, B));
+        jsConsole.writeLine('Distance B-C is: ' + calculateDistance(B, C));
+        jsConsole.writeLine('Distance A-C is: ' + calculateDistance(A, C));
+        if (calculateDistance(A, B) + calculateDistance(A, C) > calculateDistance(B, C) && calculateDistance(A, C) + calculateDistance(B, C) > calculateDistance(A, B) && calculateDistance(A, B) + calculateDistance(B, C) > calculateDistance(A, C)) {
+            jsConsole.writeLine('Three segment lines AB, AC, BC can form a triangle.');
+        } else {
+            jsConsole.writeLine('Three segment lines AB, AC, BC can not form a triangle.');
         }
-        return line(begi);
+
     }
 
-    var line1 = new Line((3, 4), (1, -2));
-    jsConsole.writeLine(line1.distance);
+    return distanceAB;
+}
+        //distanceAB = Math.sqrt((a1 - b1) * (a1 - b1) + (a2 - b2) * (a2 - b2)),
+        //distanceBC = Math.sqrt((b1 - c1) * (b1 - c1) + (b2 - c2) * (b2 - c2)),
+        //distanceAC = Math.sqrt((a1 - c1) * (a1 - c1) + (a2 - c2) * (a2 - c2));
 
 
-})();
+
+
+
+
+
+
+
