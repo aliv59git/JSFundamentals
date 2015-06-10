@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{39E7FAAA-3A25-475F-82E2-43AEB15B9E55}</ProjectGuid>
+    <ProjectGuid>{EF944C22-AF8E-4A78-968A-B60FB9C701D1}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UsingObjects</RootNamespace>
-    <AssemblyName>UsingObjects</AssemblyName>
+    <RootNamespace>ArrayMethods</RootNamespace>
+    <AssemblyName>ArrayMethods</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,16 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="2.RemoveElements.html" />
-    <Content Include="3.DeepCopy.html" />
-    <Content Include="4.HasProperty.html" />
-    <Content Include="5.YoungestPerson.html" />
-    <Content Include="6.Problem6.html" />
-    <Content Include="scripts\2.RemoveElements.js" />
-    <Content Include="scripts\3.DeepCopy.js" />
-    <Content Include="scripts\4.HasProperty.js" />
-    <Content Include="scripts\5.YoungestPerson.js" />
-    <Content Include="scripts\6.Problem.js" />
     <Content Include="styles\js-console.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -76,8 +66,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.PlanarCoordinates.html" />
-    <Content Include="scripts\1.PlanarCoordinates.js" />
+    <Content Include="1.MakePerson.html" />
+    <Content Include="2.PeopleOfAge.html" />
+    <Content Include="3.UnderAgePeople.html" />
+    <Content Include="4.AverageAgeOfFemles.html" />
+    <Content Include="scripts\1.MakePerson.js" />
+    <Content Include="scripts\2.PeopleOfAge.js" />
+    <Content Include="scripts\3.UnderagePeople.js" />
+    <Content Include="scripts\4.AverageAgeOfFemale.js" />
     <Content Include="scripts\js-console.js" />
     <Content Include="styles\js-console.css" />
     <Content Include="styles\js-console.min.css" />
@@ -86,7 +82,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -100,9 +95,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50854</DevelopmentServerPort>
+          <DevelopmentServerPort>3308</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50854/</IISUrl>
+          <IISUrl>http://localhost:3308/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

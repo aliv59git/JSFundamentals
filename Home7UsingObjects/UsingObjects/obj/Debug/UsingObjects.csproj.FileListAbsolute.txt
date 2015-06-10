@@ -1,12 +1,6 @@
-D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.dll.config
-D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.dll
-D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.pdb
-D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.csprojResolveAssemblyReference.cache
-D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.dll
-D:\VS\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.pdb
-F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.dll.config
-F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.dll
-F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.pdb
-F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.csprojResolveAssemblyReference.cache
-F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.dll
-F:\VS\JS1_N\JS1_N_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.pdb
+C:\Users\Atanas\Documents\Visual Studio 2012\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.dll.config
+C:\Users\Atanas\Documents\Visual Studio 2012\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.dll
+C:\Users\Atanas\Documents\Visual Studio 2012\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\bin\UsingObjects.pdb
+C:\Users\Atanas\Documents\Visual Studio 2012\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Documents\Visual Studio 2012\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.dll
+C:\Users\Atanas\Documents\Visual Studio 2012\JS1_N\JS1_My\JSFundamentals\Home7UsingObjects\UsingObjects\obj\Debug\UsingObjects.pdb
