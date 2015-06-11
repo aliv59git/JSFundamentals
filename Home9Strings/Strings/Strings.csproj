@@ -57,10 +57,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="10.FindPalindromes.html" />
     <Content Include="2.CorrectBrackets.html" />
     <Content Include="3.SubstringInText.html" />
+    <Content Include="4.ParseTags.html" />
+    <Content Include="5.Problem5.html" />
+    <Content Include="6.ExtractText.html" />
+    <Content Include="7.ParseURL.html" />
+    <Content Include="8.ReplaceTags.html" />
+    <Content Include="9.ExtractEMails.html" />
+    <Content Include="scripts\10.FindPalindromes.js" />
     <Content Include="scripts\2.CorrectBrackets.js" />
     <Content Include="scripts\3.SubstringInText.js" />
+    <Content Include="scripts\4.ParseTags.js" />
+    <Content Include="scripts\5.Problem5.js" />
+    <Content Include="scripts\6.ExtractText.js" />
+    <Content Include="scripts\7.ParseURL.js" />
+    <Content Include="scripts\8.ReplaceTags.js" />
+    <Content Include="scripts\9.ExtractEMails.js" />
     <Content Include="styles\js-console.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
