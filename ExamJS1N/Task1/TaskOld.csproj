@@ -65,10 +65,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index1.html" />
+    <Content Include="IndexOld.html" />
     <Content Include="js-console.css" />
     <Content Include="js-console.js" />
-    <Content Include="Task1.js" />
+    <Content Include="ResultDonchoTask2.js" />
+    <Content Include="ResultIvailoTask3NikolAngular.js" />
+    <Content Include="ResultIvailoTask3ShaverParser.js" />
+    <Content Include="ResultNikiDonchoTaskHorsy.js" />
+    <Content Include="ResultTask1.js" />
+    <Content Include="TaskOldMy.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
