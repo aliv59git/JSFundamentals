@@ -1,0 +1,480 @@
+function solve(args)
+{
+    var rows = parseInt(args[0]),
+        cols = parseInt(args[1]),
+        testsCount = parseInt(args[rows+2]),
+        gameField = [],
+        gameFieldCoordinates = [],
+        tests = [],
+        testNumber = 0,
+        figureType,
+        startPosition,
+        endPosition,
+        row = 0,
+        col = 1,
+        i, k, j;
+ 
+    // FILL GAME FIELD
+    for(i = 0; i<rows; i+=1)
+    {
+        gameField[i] = (args[i+2].split(''));
+    }
+    // GET TESTS
+    for(k = 0; k<testsCount; k+=1)
+    {
+        tests[k] = args[rows + 3 + k].split(' ');
+    }
+    // FILL COORDINATES - A1,A2,B1...etc
+    for(i = 0, j = rows; i <= rows-1; i+=1, j-=1)
+    {
+        gameFieldCoordinates[i] = [];
+        for(k = 0; k<cols-1; k+=1)
+        {
+            gameFieldCoordinates[i][k] = getValue(k,j);
+        }
+    }
+ 
+    // MAIN ACTION
+    while(testsCount > 0)
+    {
+        if(canMove(gameField,getNextDirections()))
+        {
+            console.log('yes');
+        }
+        else
+        {
+            console.log('no');
+        }
+        testsCount-=1;
+    }
+ 
+    // CORE MOVEMENT LOGIC
+    function isPathClearForMovement(figureType, line, start, end)
+    {
+        if(figureType === '-')
+        {
+            return false;
+        }
+        else if(figureType === 'R')
+        {
+            switch(line)
+            {
+                case 'SU':
+                {
+                    // CHECK IF LINE UP is clear
+                    for(i = start[row]-1; i >= end[row]; i--)
+                    {
+                        if(gameField[i][start[col]] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'SD':
+                {
+                    // CHECK IF LINE DOWN is clear
+                    for(i = start[row]+1; i <= end[row]; i++)
+                    {
+                        if(gameField[i][start[col]] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'SL':
+                {
+                    // CHECK IF LINE LEFT is clear
+                    for(i = start[col]-1; i >= end[col]; i--)
+                    {
+                        if(gameField[start[row]][i] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'SR':
+                {
+                    // CHECK IF LINE RIGHT is clear
+                    for(i = start[col]+1; i <= end[col]; i++)
+                    {
+                        if(gameField[start[row]][i] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }
+        }
+        else if(figureType === 'Q')
+        {
+            switch(line)
+            {
+                case 'SU':
+                {
+                    // CHECK IF LINE UP is clear
+                    for(i = start[row]-1; i >= end[row]; i--)
+                    {
+                        if(gameField[i][start[col]] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'SD':
+                {
+                    // CHECK IF LINE DOWN is clear
+                    for(i = start[row]+1; i <= end[row]; i++)
+                    {
+                        if(gameField[i][start[col]] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'SL':
+                {
+                    // CHECK IF LINE LEFT is clear
+                    for(i = start[col]-1; i >= end[col]; i--)
+                    {
+                        if(gameField[start[row]][i] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'SR':
+                {
+                    // CHECK IF LINE RIGHT is clear
+                    for(i = start[col]+1; i <= end[col]; i++)
+                    {
+                        if(gameField[start[row]][i] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'DDR':
+                {
+                    //CHECK IF DOWN RIGHT DIAGONAL IS CLEAR
+                    for(i = start[row]+1, k = start[col]+1; i <= end[row]; i++,k++)
+                    {
+                        if(gameField[i][k] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'DDL':
+                {
+                    //CHECK IF DOWN LEFT DIAGONAL IS CLEAR
+                    for(i = start[row]+1, k = start[col]-1; i <= end[row]; i++,k--)
+                    {
+                        if(gameField[i][k] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'DUR':
+                {
+                    //CHECK IF UP RIGHT DIAGONAL IS CLEAR
+                    for(i = start[row]-1, k = start[col]+1; i >= end[row]; i--,k++)
+                    {
+                        if(gameField[i][k] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'DUL':
+                {
+                    //CHECK IF UP LEFT DIAGONAL IS CLEAR
+                    for(i = start[row]-1, k = start[col]-1; i >= end[row]; i--,k--)
+                    {
+                        if(gameField[i][k] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }
+        }
+        else if(figureType === 'B')
+        {
+            switch(line)
+            {
+                case 'DDR':
+                {
+                    //CHECK IF DOWN RIGHT DIAGONAL IS CLEAR
+                    for(i = start[row]+1, k = start[col]+1; i <= end[row]; i++,k++)
+                    {
+                        if(gameField[i][k] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'DDL':
+                {
+                    //CHECK IF DOWN LEFT DIAGONAL IS CLEAR
+                    for(i = start[row]+1, k = start[col]-1; i <= end[row]; i++,k--)
+                    {
+                        if(gameField[i][k] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'DUR':
+                {
+                    //CHECK IF UP RIGHT DIAGONAL IS CLEAR
+                    for(i = start[row]-1, k = start[col]+1; i >= end[row]; i--,k++)
+                    {
+                        if(gameField[i][k] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                case 'DUL':
+                {
+                    //CHECK IF UP LEFT DIAGONAL IS CLEAR
+                    for(i = start[row]-1, k = start[col]-1; i >= end[row]; i--,k--)
+                    {
+                        if(gameField[i][k] !== '-')
+                        {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }
+        }
+        else
+        {
+            return false;
+        }
+    }
+    // CHECK IF MOVE IS POSSIBLE
+    function canMove(gameField, directions)
+    {
+        figureType = getFigureType(gameField,getCoordinatesOfFigure(directions[0]));
+        startPosition = getCoordinatesOfFigure(directions[0]);
+        endPosition = getCoordinatesOfFigure(directions[1]);
+ 
+        // Move diagonally DOWN RIGHT
+        if(startPosition[row] < endPosition[row] && startPosition[col] < endPosition[col])
+        {
+            if(getAbsoluteDifference(startPosition[row],endPosition[row]) === getAbsoluteDifference(startPosition[col],endPosition[col]))
+            {
+                return isPathClearForMovement(figureType,'DDR',startPosition, endPosition);
+            }
+        }
+        // Move diagonally DOWN LEFT
+        else if(startPosition[row] < endPosition[row] && startPosition[col] > endPosition[col])
+        {
+            if(getAbsoluteDifference(startPosition[row],endPosition[row]) === getAbsoluteDifference(startPosition[col],endPosition[col]))
+            {
+                return isPathClearForMovement(figureType,'DDL',startPosition, endPosition);
+            }
+        }
+        // Move diagonally UP RIGHT
+        else if(startPosition[row] > endPosition[row] && startPosition[col] < endPosition[col])
+        {
+            if(getAbsoluteDifference(startPosition[row],endPosition[row]) === getAbsoluteDifference(startPosition[col],endPosition[col]))
+            {
+                return isPathClearForMovement(figureType, 'DUR', startPosition, endPosition);
+            }
+        }
+        // Move diagonally UP LEFT
+        else if(startPosition[row] > endPosition[row] && startPosition[col] > endPosition[col])
+        {
+            if(getAbsoluteDifference(startPosition[row],endPosition[row]) === getAbsoluteDifference(startPosition[col],endPosition[col]))
+            {
+                return isPathClearForMovement(figureType, 'DUL', startPosition, endPosition);
+            }
+        }
+        // Move STRAIGHT UP
+        else if(startPosition[row] > endPosition[row] && startPosition[col] === endPosition[col])
+        {
+            return isPathClearForMovement(figureType, 'SU', startPosition, endPosition);
+        }
+        // Move STRAIGHT DOWN
+        else if(startPosition[row] < endPosition[row] && startPosition[col] === endPosition[col])
+        {
+            return isPathClearForMovement(figureType, 'SD', startPosition, endPosition);
+        }
+        // Move STRAIGHT LEFT
+        else if(startPosition[row] === endPosition[row] && startPosition[col] > endPosition[col])
+        {
+            return isPathClearForMovement(figureType, 'SL', startPosition, endPosition);
+        }
+        // Move STRAIGHT RIGHT
+        else if(startPosition[row] === endPosition[row] && startPosition[col] < endPosition[col])
+        {
+            return isPathClearForMovement(figureType, 'SR', startPosition, endPosition);
+        }
+        else
+        {
+            return false;
+        }
+    }
+    // FIND FIGURE TYPE
+    function getFigureType(gameField, coordinates)
+    {
+        return gameField[coordinates[0]][coordinates[1]];
+    }
+    // CALCULATE COORDINATES BY GIVEN DIRECTION PATTERN(I.E - 'A1');
+    function getCoordinatesOfFigure(directions)
+    {
+        var direction = directions.split('');
+        coordinates = [];
+ 
+        coordinates[0] = (rows - direction[1]);
+        switch(direction[0])
+        {
+            case 'a':
+                coordinates[1] = 0;
+                break;
+            case 'b': coordinates[1] = 1;
+                break;
+            case 'c': coordinates[1] = 2;
+                break;
+            case 'd': coordinates[1] = 3;
+                break;
+            case 'e': coordinates[1] = 4;
+                break;
+            case 'f': coordinates[1] = 5;
+                break;
+            case 'g': coordinates[1] = 6;
+                break;
+            case 'h': coordinates[1] = 7;
+                break;
+            case 'i': coordinates[1] = 8;
+                break;
+            case 'j': coordinates[1] = 9;
+                break;
+            case 'k': coordinates[1] = 10;
+                break;
+            case 'l': coordinates[1] = 11;
+                break;
+            case 'm': coordinates[1] = 12;
+                break;
+            case 'n': coordinates[1] = 13;
+                break;
+            case 'o': coordinates[1] = 14;
+                break;
+            case 'p': coordinates[1] = 15;
+                break;
+            case 'q': coordinates[1] = 16;
+                break;
+            case 'r': coordinates[1] = 17;
+                break;
+            case 's': coordinates[1] = 18;
+                break;
+            case 't': coordinates[1] = 19;
+                break;
+            case 'u': coordinates[1] = 20;
+                break;
+            case 'v': coordinates[1] = 21;
+                break;
+            case 'w': coordinates[1] = 22;
+                break;
+            case 'x': coordinates[1] = 23;
+                break;
+            case 'y': coordinates[1] = 24;
+                break;
+            case 'z': coordinates[1] = 25;
+                break;
+        }
+ 
+        return coordinates;
+    }
+    // GET NEXT DIRECTIONS
+    function getNextDirections()
+    {
+        return tests[testNumber++];
+    }
+    // GET ABSOLUTE DIFFERENCE BETWEEN CELL COORDINATES
+    function getAbsoluteDifference(firstCell,secondCell)
+    {
+        var result = firstCell-secondCell;
+ 
+        if(result < 0)
+        {
+            result *= (-1);
+        }
+ 
+        return result;
+    }
+    // GET PATTERN VALUES
+    function getValue(letters, number)
+    {
+        switch(letters)
+        {
+            case 0: return 'a'+number;
+            case 1: return 'b'+number;
+            case 2: return 'c'+number;
+            case 3: return 'd'+number;
+            case 4: return 'e'+number;
+            case 5: return 'f'+number;
+            case 6: return 'g'+number;
+            case 7: return 'h'+number;
+            case 8: return 'i'+number;
+            case 9: return 'j'+number;
+            case 10: return 'k'+number;
+            case 11: return 'l'+number;
+            case 12: return 'm'+number;
+            case 13: return 'n'+number;
+            case 14: return 'o'+number;
+            case 15: return 'p'+number;
+            case 16: return 'q'+number;
+            case 17: return 'r'+number;
+            case 18: return 's'+number;
+            case 19: return 't'+number;
+            case 20: return 'u'+number;
+            case 21: return 'v'+number;
+            case 22: return 'w'+number;
+            case 23: return 'x'+number;
+            case 24: return 'y'+number;
+            case 25: return 'z'+number;
+        }
+    }
+}
+ 
+var args1 = [
+    '3',
+    '4',
+    '--R-',
+    'B--B',
+    'Q--Q',
+    '12',
+    'd1 b3',
+    'a1 a3',
+    'c3 b2',
+    'a1 c1',
+    'a1 b2',
+    'a1 c3',
+    'a2 b3',
+    'd2 c1',
+    'b1 b2',
+    'c3 b1',
+    'a2 a3',
+    'd1 d3'];
+ 
+solve(args1);

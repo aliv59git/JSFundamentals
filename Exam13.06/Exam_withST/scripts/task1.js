@@ -34,4 +34,5 @@ var test = ['8',
 '1 8 8 4 2 9 8 11'
 ];
 
+
 console.log(solve(test));
